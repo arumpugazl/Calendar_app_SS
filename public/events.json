@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Meeting with team",
+    "date": "2025-06-24",
+    "time": "10:00",
+    "duration": "1h"
+  },
+  {
+    "title": "Client call",
+    "date": "2025-06-24",
+    "time": "11:00",
+    "duration": "30m"
+  },
+  {
+    "title": "Project deadline",
+    "date": "2025-06-27",
+    "time": "23:59",
+    "duration": "All Day"
+  }
+]

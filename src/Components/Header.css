@@ -1,0 +1,139 @@
+/* Header.css */
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: var(--header-bg);
+  color: var(--header-text);
+  position: relative;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.title-section {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.calendar-icon {
+  width: 40px;
+  height: 40px;
+  stroke: var(--icon-color);
+}
+
+.main-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--main-title);
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  flex: 1;
+  justify-content: center;
+  position: relative;
+}
+
+.month-navigation {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.nav-button {
+  background-color: var(--nav-btn-bg);
+  color: var(--nav-btn-text);
+  border: none;
+  padding: 0.4rem 0.8rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  font-size: 1.1rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.nav-button:hover {
+  background-color: var(--nav-btn-hover);
+  transform: scale(1.05);
+}
+
+.dark-toggle {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 0.95rem;
+  padding: 0.3rem 0.7rem;
+  border-radius: 8px;
+  background-color: var(--toggle-bg);
+  color: var(--toggle-text);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.dark-toggle:hover {
+  background-color: var(--toggle-hover);
+  transform: scale(1.05);
+}
+
+.toggle-icon {
+  font-size: 1.2rem;
+}
+
+.toggle-label {
+  font-size: 0.9rem;
+}
+
+:root {
+  --header-bg: #fff;
+  --header-text: #333;
+  --main-title: #d26c6c;
+  --icon-color: #f08080;
+  --nav-btn-bg: #f0f0f0;
+  --nav-btn-text: #333;
+  --nav-btn-hover: #e0e0e0;
+  --toggle-bg: #f7d6d6;
+  --toggle-text: #333;
+  --toggle-hover: #f0bcbc;
+}
+
+.dark .header-container {
+  background-color: #1f1f1f;
+  color: #f0f0f0;
+}
+
+.dark .calendar-icon {
+  stroke: #f0f0f0;
+}
+
+.dark .main-title {
+  color: #ffd6d6;
+}
+
+.dark .nav-button {
+  background-color: #2c2c2c;
+  color: #fff;
+}
+
+.dark .nav-button:hover {
+  background-color: #3d3d3d;
+}
+
+.dark .dark-toggle {
+  background-color: #3d3d3d;
+  color: #fff;
+}
+
+.dark .dark-toggle:hover {
+  background-color: #555;
+}

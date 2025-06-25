@@ -1,0 +1,19 @@
+[
+  { "name": "New Year's Day", "date": "2025-01-01", "icon": "🎉" },
+  { "name": "Pongal", "date": "2025-01-14", "icon": "🌾" },
+  { "name": "Republic Day", "date": "2025-01-26", "icon": "🇮🇳" },
+  { "name": "Maha Shivaratri", "date": "2025-02-26", "icon": "🔱" },
+  { "name": "Holi", "date": "2025-03-14", "icon": "🌈" },
+  { "name": "Good Friday", "date": "2025-04-18", "icon": "✝️" },
+  { "name": "Ramzan (Eid al-Fitr)", "date": "2025-03-30", "icon": "🌙" },
+  { "name": "May Day", "date": "2025-05-01", "icon": "🛠️" },
+  { "name": "Independence Day", "date": "2025-08-15", "icon": "🎆" },
+  { "name": "Raksha Bandhan", "date": "2025-08-09", "icon": "🪢" },
+  { "name": "Janmashtami", "date": "2025-08-16", "icon": "🎊" },
+  { "name": "Ganesh Chaturthi", "date": "2025-08-30", "icon": "🐘" },
+  { "name": "Gandhi Jayanti", "date": "2025-10-02", "icon": "🕊️" },
+  { "name": "Dussehra", "date": "2025-10-02", "icon": "🏹" },
+  { "name": "Diwali", "date": "2025-10-20", "icon": "🪔" },
+  { "name": "Bhai Dooj", "date": "2025-10-22", "icon": "👫" },
+  { "name": "Christmas Day", "date": "2025-12-25", "icon": "🎄" }
+]

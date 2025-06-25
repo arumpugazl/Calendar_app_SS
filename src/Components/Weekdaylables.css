@@ -1,0 +1,41 @@
+/* Weekend style for light theme */
+.calendar-cell.weekend {
+  background-color: #e8f1ff !important;
+  color: #336699 !important;
+}
+
+/* Weekend style for dark theme */
+.dark .calendar-cell.weekend {
+  background-color: #2a3a4d !important;
+  color: #9fc9ff !important;
+}
+
+/* Ensure today + weekend is still visible */
+.calendar-cell.today.weekend {
+  border: 2px solid var(--highlight);
+  box-shadow: 0 0 0 2px var(--highlight) inset;
+}
+
+
+.weekday-labels {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  text-align: center;
+  margin-bottom: 0.75rem;
+  padding: 0.5rem 0;
+  border-bottom: 2px solid #f8d7da;
+}
+
+.weekday-label {
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding: 0.5rem 0;
+}
+
+.weekday {
+  color: #db4c66; /* Cherry Peachy for weekdays */
+}
+
+.weekend-label {
+  color: #6fa4c4; /* Light peachy blue */
+}
