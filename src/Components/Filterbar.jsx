@@ -1,6 +1,6 @@
 // FilterBar.jsx
 import React from 'react';
-import './FilterBar.css';
+import './Filterbar.css';
 
 const FilterBar = ({ searchTerm, setSearchTerm }) => {
   return (
